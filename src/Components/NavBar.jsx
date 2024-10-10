@@ -88,7 +88,7 @@ function NavBar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="/assets/logo.jpg" alt="Logo1"
+            <img src="/assets/logo.jpg" alt="LLLogo"
            />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
