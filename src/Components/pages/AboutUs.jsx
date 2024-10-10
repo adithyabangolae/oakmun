@@ -163,7 +163,7 @@ style={{marginTop:40}}>
    
     <h3>Under-Secretary-General
     of Security:</h3>
-    <p>Anica Mishra</p>
+    <p>Kashvi Mahendra</p>
     <img src="images/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
@@ -200,6 +200,14 @@ style={{marginTop:40}}>
    <h3>Under-Secretary-General
    of Delegate Affairs:</h3>
    <p>Tanvi Srinivasan</p>
+   <img src="images/default_image.png" alt="Director of Operations"/>
+ </div>
+
+ <div class="secretariat-block">
+   
+   <h3>Under-Secretary-General
+   of Delegate Affairs:</h3>
+   <p>Rishita Borah</p>
    <img src="images/default_image.png" alt="Director of Operations"/>
  </div>
 

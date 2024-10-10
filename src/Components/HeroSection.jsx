@@ -10,13 +10,11 @@ function HeroSection() {
    
     <div className='hero-container'>
 
-    <div className="qoute_hero">
-<h2>Show them who you are.</h2>
-    </div>
+
       
       <h1>Oakridge Model United Nations</h1>
       
-      <p> November 8-10,2024</p>
+      <p> November 8-10, 2024</p>
 
    
      
