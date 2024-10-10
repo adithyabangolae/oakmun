@@ -73,6 +73,17 @@ Arryaa Oduru, Secretary General
       <h1>Letter from the Director General</h1>
       </div>
 
+      <div className="img-s">
+      <img src="images/riya.jpg" alt="picture"
+      style={{
+        width:270,
+       marginBottom:100,
+        marginTop:20
+      }}
+           />
+      
+      </div>
+
       <div className="dg-name">
        <p> Riya Iyenger </p>
       </div>
@@ -82,7 +93,7 @@ Arryaa Oduru, Secretary General
       <hr style={{
         width:270,
         position:'absolute',
-        marginTop:1410,
+        marginTop:1660,
         marginLeft:625,
         
       }}/>

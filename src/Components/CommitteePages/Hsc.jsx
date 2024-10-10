@@ -64,8 +64,7 @@ export default function Hsc() {
        <div className="desc_hsc">
         <p>
         History and geopolitics is filled with heavyweight battles. In 1962, two of the self-proclaimed leaders of the new world order stepped into the ring for a fight that threatened to the end the world as we know it. An American U2 Spy Plane has just found Russian missiles stationed in Castro’s Cuba, and the Security Council convenes on October 22nd, 1962 right after Kennedy has revealed such information to the distressed American public. The tipping point of rising USA-USSR tensions during the Cold War couldn’t possibly come any closer as ideological warfare takes a turn for the worse. Delegates representing countries in the UNSC will ensure not only the prevention of war and mutual nuclear destruction, but the establishment of a new term of peace in the Cold War era, a 20th century conflict that threatens the fabric of society to this day.
-        <br/><br/>
-       <b> (Note: This is a double delegation commitee)</b>
+      
         </p>
        </div>
 
