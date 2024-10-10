@@ -8,7 +8,7 @@ export default function Hrc() {
         {
           name: "Samiksha VB",
           title: "(Chair)",
-          image: "/assets/samiksha.png",
+          image: "/images/samiksha.png",
           quote: {
             text: "The unexamined life is not worth living.",
             attribution: "Socrates"
@@ -19,7 +19,7 @@ export default function Hrc() {
         {
           name: "Vivaan Sheth",
           title: "(Vice-Chair)",
-          image: "/assets/vivaan.png",
+          image: "/images/vivaan.png",
           bio:"Vivaan has attended 15+ MUNs, placing in prestigious conferences such as CJCMUN, DMUN, AJMUN, BLR JMUN, etc. He’s also served on the executive board twice previously and was the Director General for the Oakridge JMUN in 2023. As someone who believes a good MUN is all about balance, you can count on him to make sure the committee is both extremely hilarious and rigorously debate intensive. Outside of MUNs, Vivaan spends his free time at the track Go-Karting (Where he’s eligible to race at a national level)."
         
           
@@ -27,7 +27,7 @@ export default function Hrc() {
         {
             name: "Suhani Singh",
             title: "(Moderator)",
-            image: "/assets/suhani.png",
+            image: "/images/suhani.png",
             quote: {
                 text: "Therefore, society is everything and society is nothing",
                 attribution: "Virginia Woolf"
@@ -38,7 +38,7 @@ export default function Hrc() {
           {
             name: "Myra Kulkarni",
             title: "(Moderator)",
-            image: "/assets/myra.png",
+            image: "/images/myra.png",
             bio: "Being very passionate about arguing (for the right reasons), Myra Kulkarni is a debate enthusiast with an impressive 85% placement rate out of the six MUNs she’s been to as a delegate, including, most recently, the Harvard Model United Nations as Honorable Delegate among 17,000 delegates from around the world. When she’s not MUNning, she loves reading, listening to music, or doing stuff that’s totally unhinged."
           
           },
