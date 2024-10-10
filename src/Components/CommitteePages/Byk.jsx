@@ -8,7 +8,7 @@ export default function Byk() {
         {
           name: "Arpita Joshi",
           title: "(Head-Chair)",
-          image: "/images/arpita.png",
+          image: "images/arpita.png",
           quote: {
             text: "A good lawyer knows the law, a great lawyer knows the judge.",
             attribution: null
@@ -18,7 +18,7 @@ export default function Byk() {
         {
           name: "Aniketh Kudva",
           title: "(Vice-Chair)",
-          image: "/images/aniketh.png",
+          image: "images/aniketh.png",
           quote: {
             text: "Mind is not the problem, the mindset is.",
             attribution: "Narendra Modi"
@@ -29,7 +29,7 @@ export default function Byk() {
         {
             name: "Avyan Singh",
             title: "(Moderator)",
-            image: "/images/avyan.png",
+            image: "images/avyan.png",
             quote: {
               text: "तस्मात्त्वमुत्तिष्ठ यशो लभस्व",
               attribution: null
