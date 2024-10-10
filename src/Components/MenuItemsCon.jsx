@@ -1,7 +1,7 @@
 export const MenuItemsCon = [
     {
       title: 'CODE OF CONDUCT',
-      path: '/files/code_of_conduct.pdf',
+      path: 'images/code_of_conduct.pdf',
       cName: 'dropdown-link',
       external: true
     },

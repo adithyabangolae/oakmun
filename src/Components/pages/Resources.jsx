@@ -58,7 +58,7 @@ export default function Resources() {
     <div className="container_r ">
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
+          <img src="images/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">TIPS TO SUCCESS AT OakMUN</h2>
@@ -68,7 +68,7 @@ export default function Resources() {
             making the most of your time in new haven on Oakridge's campus!
           </p>
           <a
-      href="/assets/tipsAndGuidelines.pdf"
+      href="images/tipsAndGuidelines.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -91,7 +91,7 @@ export default function Resources() {
       
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
+          <img src="images/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA PROCEDURE FLOW MAP</h2>
@@ -101,7 +101,7 @@ export default function Resources() {
             procedure.
           </p>
           <a
-      href="/images/flowOfDebate.png"
+      href="images/flowOfDebate.png"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -122,7 +122,7 @@ export default function Resources() {
 
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
+          <img src="images/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA Procedure Description</h2>
@@ -131,7 +131,7 @@ export default function Resources() {
           and the specifics of UNA-USA Procedure. 
           </p>
           <a
-      href="/assets/procedure_description.pdf"
+      href="images/procedure_description.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -151,7 +151,7 @@ export default function Resources() {
       </div>
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
+          <img src="images/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">Points and Motions Table
@@ -161,7 +161,7 @@ export default function Resources() {
           Click the button below to access.
           </p>
           <a
-      href="/assets/points_and_motion.pdf"
+      href="images/points_and_motion.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
