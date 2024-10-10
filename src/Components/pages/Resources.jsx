@@ -58,7 +58,7 @@ export default function Resources() {
     <div className="container_r ">
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/assets/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
+          <img src="images/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">TIPS TO SUCCESS AT OakMUN</h2>
@@ -91,7 +91,7 @@ export default function Resources() {
       
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/assets/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
+          <img src="images/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA PROCEDURE FLOW MAP</h2>
@@ -101,7 +101,7 @@ export default function Resources() {
             procedure.
           </p>
           <a
-      href="/assets/flowOfDebate.png"
+      href="images/flowOfDebate.png"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -122,7 +122,7 @@ export default function Resources() {
 
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/assets/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
+          <img src="images/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA Procedure Description</h2>
@@ -151,7 +151,7 @@ export default function Resources() {
       </div>
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/assets/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
+          <img src="images/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">Points and Motions Table
