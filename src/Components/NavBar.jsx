@@ -8,9 +8,11 @@ import DropdownReg from './DropdownReg';
 
 
 
+
+
 function NavBar() {
   const [click,setClick] = useState(false);
-  const [button, setButton] = useState(true);
+ 
   const [conferenceDropdown, setConferenceDropdown] = useState(false); 
   const [committeesDropdown, setCommitteesDropdown] = useState(false);
   const [registerationsDropdown, setRegisterationsDropdown] = useState(false);
@@ -86,7 +88,7 @@ function NavBar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="images/logo.jpg" alt="logo"
+            <img src="src/images/logo.jpg" alt="logo"
            />
             </Link>
             <div className="menu-icon" onClick={handleClick}>

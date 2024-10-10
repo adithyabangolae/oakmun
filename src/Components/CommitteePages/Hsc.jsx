@@ -8,7 +8,7 @@ export default function Hsc() {
         {
           name: "BS Chetan Swaroop Reddy",
           title: "(Co-Chair)",
-          image: "/memberImages/chetan.png",
+          image: process.env.PUBLIC_URL + "/memberImages/chetan.png",
           quote: {
             text: "It’s either you be dominated or dominate, and i always prefer to do the latter.",
             attribution: null
