@@ -20,7 +20,7 @@ export default function Registrations() {
 
 <div className="button_reg">
 <a
-      href="/https://docs.google.com/forms/d/e/1FAIpQLSfXDcvAFUlDG9U_HCTOQzzhu132pS16CiG2Q2O4xYhRmoW6cw/viewform"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSfXDcvAFUlDG9U_HCTOQzzhu132pS16CiG2Q2O4xYhRmoW6cw/viewform"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -40,6 +40,7 @@ export default function Registrations() {
           </Button>
 </a>
           </div>
+          <div className="button_reg">
           <a
       href="https://docs.google.com/forms/d/e/1FAIpQLSd5f_5MTo-ahFOokglaqguBXb6mTll-pIXMDOL_xTUGIwrbQg/viewform"
       target="_blank"
@@ -59,6 +60,7 @@ export default function Registrations() {
           style={{marginLeft:5}}></i>
           </Button>
 </a>
+</div>
          
 
       
