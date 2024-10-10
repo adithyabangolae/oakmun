@@ -9,7 +9,7 @@
   }
 
   .background_container_ipc {
-    background: url('/images/ipc.jpg') center center/cover no-repeat; 
+    background: url('/assets/ipc.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;

@@ -9,7 +9,7 @@
   }
 
   .background_container_x {
-    background: url('/images/home.jpg') center center/cover no-repeat; 
+    background: url('/assets/home.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;

@@ -9,7 +9,7 @@
   }
 
   .background_container_disec {
-    background: url('/images/disec.jpg') center center/cover no-repeat; 
+    background: url('/assets/disec.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;

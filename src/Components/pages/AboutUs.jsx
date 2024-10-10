@@ -130,62 +130,62 @@ style={{marginTop:40}}>
     
     <h3>SECRETARY-GENERAL:</h3>
     <p>ARRYAA ODURU</p>
-    <img src="/images/default_image.png" alt="Secretary-General"/>
+    <img src="/assets/default_image.png" alt="Secretary-General"/>
   </div>
   <div class="secretariat-block">
     
     <h3>DIRECTOR-GENERAL:</h3>
     <p>RIYA IYENGER</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
     
     <h3>Under-Secretary-General
     of logistics:</h3>
     <p>Saisha agarwal</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
     
     <h3>Under-Secretary-General
     of logistics:</h3>
     <p>Nidhi Vasishta</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
    
     <h3>Under-Secretary-General
     of logistics:</h3>
     <p>Anica Mishra</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
    
     <h3>Under-Secretary-General
     of Security:</h3>
     <p>Anica Mishra</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
    
     <h3>Under-Secretary-General
     of Security:</h3>
     <p>Yajwin Krishna Ashok</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
    
     <h3>Under-Secretary-General
     of Tech:</h3>
     <p>Adithya Bangolae</p>
-    <img src="/images/default_image.png" alt="Director of Operations"/>
+    <img src="/assets/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
    
    <h3>Under-Secretary-General
    of Marketing:</h3>
    <p>Rajveer Nethala</p>
-   <img src="/images/default_image.png" alt="Director of Operations"/>
+   <img src="/assets/default_image.png" alt="Director of Operations"/>
  </div>
 
  <div class="secretariat-block">
@@ -193,14 +193,14 @@ style={{marginTop:40}}>
    <h3>Under-Secretary-General
    of Delegate Affairs:</h3>
    <p>Akshat Shanker Gupta</p>
-   <img src="/images/default_image.png" alt="Director of Operations"/>
+   <img src="/assets/default_image.png" alt="Director of Operations"/>
  </div>
  <div class="secretariat-block">
    
    <h3>Under-Secretary-General
    of Delegate Affairs:</h3>
    <p>Tanvi Srinivasan</p>
-   <img src="/images/default_image.png" alt="Director of Operations"/>
+   <img src="/assets/default_image.png" alt="Director of Operations"/>
  </div>
 
  <div class="secretariat-block">
@@ -208,7 +208,7 @@ style={{marginTop:40}}>
    <h3>Under-Secretary-General
    of Finance:</h3>
    <p>Amrita Milan</p>
-   <img src="/images/default_image.png" alt="Director of Operations"/>
+   <img src="/assets/default_image.png" alt="Director of Operations"/>
  </div>
  
   

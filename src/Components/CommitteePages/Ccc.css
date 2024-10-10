@@ -9,7 +9,7 @@
   }
 
   .background_container_ccc {
-    background: url('/images/ccc.jpg') center center/cover no-repeat; 
+    background: url('/assets/ccc.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;
