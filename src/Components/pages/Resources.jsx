@@ -68,7 +68,7 @@ export default function Resources() {
             making the most of your time in New Haven on Oakkridge's campus!
           </p>
           <a
-      href="/files/tipsAndGuidelines.pdf"
+      href="/assets/tipsAndGuidelines.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -91,7 +91,7 @@ export default function Resources() {
       
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
+          <img src="/assets/procedureFlowMap.png" alt="UNA-USA Procedure Flow Map" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA PROCEDURE FLOW MAP</h2>
@@ -101,7 +101,7 @@ export default function Resources() {
             procedure.
           </p>
           <a
-      href="/files/flowOfDebate.png"
+      href="/assets/flowOfDebate.png"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -122,7 +122,7 @@ export default function Resources() {
 
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
+          <img src="/assets/procedureDesc.png" alt="UNA-USA Procedure Description" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">UNA-USA Procedure Description</h2>
@@ -131,7 +131,7 @@ export default function Resources() {
           and the specifics of UNA-USA Procedure. 
           </p>
           <a
-      href="/files/procedure_description.pdf"
+      href="/assets/procedure_description.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -151,7 +151,7 @@ export default function Resources() {
       </div>
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
+          <img src="/assets/pointsAndMotions.png" alt="Points and Motions Table" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">Points and Motions Table
@@ -161,7 +161,7 @@ export default function Resources() {
           Click the button below to access.
           </p>
           <a
-      href="/files/points_and_motion.pdf"
+      href="/assets/points_and_motion.pdf"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
