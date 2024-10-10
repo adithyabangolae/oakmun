@@ -85,7 +85,7 @@ Arryaa Oduru, Secretary General
       </div>
 
       <div className="dg-name">
-       <p> Riya Iyenger </p>
+       <p> Riya Iyengar </p>
       </div>
       <div className="dgr-name">
       <p> Director General </p>
