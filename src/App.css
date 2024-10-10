@@ -48,5 +48,14 @@
     font-size: 3rem;
   }
   
-
+  .resources {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 100px;
+  }
+  
+ 
+  
 

@@ -9,7 +9,7 @@
   }
 
   .background_container_Unga {
-    background: url('/assets/unga.jpg') center center/cover no-repeat; 
+    background: url('/images/unga.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;

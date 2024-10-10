@@ -9,7 +9,7 @@
   }
 
   .background_container_byk {
-    background: url('/assets/byk.jpg') center center/cover no-repeat; 
+    background: url('/images/byk.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 45vh;
