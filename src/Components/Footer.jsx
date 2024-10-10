@@ -46,7 +46,7 @@ function Footer() {
     >
       <div className="icon">
 
-        <img src="/assets/icon_oakridge.png" alt="Oakridge Icon" />
+        <img src="/assets/images/icon_oakridge.png" alt="Oakridge Icon" />
      
       </div>
       </a>
@@ -60,11 +60,11 @@ function Footer() {
       }}
     >
       <div className="icon">
-        <img src="/assets/icon_instagram.png" alt="Instagram Icon" />
+        <img src="/assets/images/icon_instagram.png" alt="Instagram Icon" />
       </div>
       </a>
       <div className="icon">
-        <img src="/assets/icon_github.png" alt="GitHub Icon" />
+        <img src="/assets/images/icon_github.png" alt="GitHub Icon" />
       </div>
     </div>
         
