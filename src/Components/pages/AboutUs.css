@@ -1,0 +1,273 @@
+.aboutus__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+     
+  
+  }
+
+  .background_container_a {
+    background: url('/images/school.jpg') center center/cover no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    
+  }
+
+  .about_para > p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    margin-top: -120px;
+    
+    margin-bottom: 40px;
+    margin-left: -37px;
+    display: flex;
+    width: 480px;
+    
+  }
+
+  .aboutus {
+    padding: 2rem;
+    background: white;
+   
+  }
+
+  .aboutus_heading > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+  text-align: center;
+  margin-left: -2px;
+  text-transform: none;
+  letter-spacing: 0.1rem;
+  font-size: 30px;
+  
+  
+
+  }
+
+  .quote_1 > p {
+    font-style: italic;
+    margin-left: 4.5rem;
+    width: 430px;
+    margin-top: -1rem;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 2rem;
+    font-size: 25px;
+    margin-left:36.5rem;
+    
+  }
+
+  .quote_2 > p {
+    font-style: italic;
+    margin-left: 4.5rem;
+    width: 430px;
+    position: absolute;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 2rem;
+    font-size: 25px;
+    margin-top: 4rem;
+    
+  }
+
+  .quote_name > p {
+  font-family: 'Roboto', serif; 
+  font-size: 11px; 
+  font-weight: 400; 
+  letter-spacing: 2px; 
+  color: #9B9B9B; 
+  text-transform: uppercase;
+  margin-top: -1rem;
+  margin-left: 4.5rem;
+  position: absolute;
+  display: flex;
+  }
+
+  .quote_name1 > p {
+    font-family: 'Roboto', serif; 
+    font-size: 11px; 
+    font-weight: 400; 
+    letter-spacing: 2px; 
+    color: #9B9B9B; 
+    text-transform: uppercase;
+    margin-top: 15rem;
+    margin-left: 4.5rem;
+    position: absolute;
+    display: flex;
+    }
+
+  .misson_heading > h2{
+    
+    margin-top: 20px;
+    font-size: 45px;
+    color: #00366B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-family: 'Rubik';
+    
+    font-style: italic;
+    
+
+  }
+
+  .mission_para > p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: -37px;
+    
+    width: 800px;
+    text-align: center;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    max-width: 1200px;
+   
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .column > h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #00366B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-family: Rubik;
+    font-style: normal;
+    font-style: italic;
+    width: 370px;
+    
+  }
+  
+  .column > p {
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: black;
+    width: 350px;
+   
+  }
+
+
+  .secretariat-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 25px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .secretariat-container > h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+
+  
+  .secretariat-block {
+    flex: 1 1 30%; 
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .secretariat-block > h3 {
+    flex: 1 1 30%; 
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+
+  }
+
+  .secretariat-block > p {
+    font-size: 1rem;
+    
+    letter-spacing: 1px;
+    color: #333; 
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+
+
+  
+  
+  .secretariat-block:nth-child(1) {
+    grid-column: span 2;
+    margin-left: 110px;
+    
+  }
+  
+  .secretariat-block:nth-child(2) {
+    grid-column: span 1;
+    margin-left: -110px;
+  }
+  
+  
+  .secretariat-block:nth-child(3),
+  .secretariat-block:nth-child(4),
+  .secretariat-block:nth-child(5) {
+    grid-column: span 1; 
+  }
+  
+  .secretariat-block img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    width: 500px;
+    
+  }
+
+  
+@media (max-width: 1024px) {
+  .info-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+  
+  
+  @media (max-width: 768px) {
+    .secretariat-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+ 
+  
+
+ 
+
+
+  
