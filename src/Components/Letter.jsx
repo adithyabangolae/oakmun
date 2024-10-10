@@ -13,7 +13,7 @@ function Letter() {
       </div>
 
       <div className="img-d">
-      <img src="/assets/arryaa.jpg" alt="picture"
+      <img src="/src/assets/arryaa.jpg" alt="picture"
       style={{
         width:270,
         marginTop:20
