@@ -8,7 +8,7 @@ export default function Ccc() {
         {
           name: "Ananya Khare",
           title: "(Head-Chair)",
-          image: "/memberImages/ananya.png",
+          image: "/assets/ananya.png",
           quote: {
             text: "Because freedom, I am told, is nothing but the distance between the hunter and its prey.",
             attribution: "Ocean Vuong"
@@ -18,7 +18,7 @@ export default function Ccc() {
         {
           name: "Mueez Hassan",
           title: "(Vice-Chair)",
-          image: "/memberImages/mueez.png",
+          image: "/assets/mueez.png",
           quote: {
             text: "Someone must extinguish thy flame",
             attribution: null
@@ -29,7 +29,7 @@ export default function Ccc() {
         {
             name: "Aarav Kejriwal",
             title: "(Moderator)",
-            image: "/memberImages/aarav.png",
+            image: "/assets/aarav.png",
             quote: {
               text: "Chaos was the law of nature; Order was the dream of man.",
               attribution: null
@@ -39,7 +39,7 @@ export default function Ccc() {
           
           },
           {
-            image: "/memberImages/arryaa.jpg",
+            image: "/assets/arryaa.jpg",
             
             
           },

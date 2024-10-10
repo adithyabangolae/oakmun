@@ -8,17 +8,17 @@ export default function Disec() {
         {
           name: "Darshan CP",
           title: "(Chair)",
-          image: "/memberImages/darshan.png",
+          image: "/assets/darshan.png",
           bio: "Darshan is a third-year law student at CMR University who, over the years, has participated in a plethora of Model United Nations conferences, holding various positions and responsibilities. Beyond MUNs, Darshan is an avid mooter, consistently demonstrating exceptional prowess in legal advocacy and argumentation, with numerous accolades attesting to his expertise. In addition to his academic and extracurricular pursuits, Darshan is also a seasoned performing artist with over 15 years of experience in Bharatanatyam, the classical art form. He has graced numerous prestigious national stages with his performances."
           
         },
         {
-          image: "/memberImages/riti.png",
+          image: "/assets/riti.png",
         },
         {
             name: "Atharva Bhagat",
             title: "(Moderator)",
-            image: "/memberImages/atharva.png",
+            image: "/assets/atharva.png",
             quote: {
                 text: "One of the penalties of refusing to participate in politics is that you end up being governed by your inferiors",
                 attribution: "Plato"

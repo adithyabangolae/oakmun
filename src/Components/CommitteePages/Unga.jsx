@@ -8,7 +8,7 @@ export default function Unga() {
         {
           name: "Nickul Pahwa",
           title: "(Chair)",
-          image: "/memberImages/nickul.png",
+          image: "/assets/nickul.png",
           quote: {
             text: "It’s either you be dominated or dominate, and i always prefer to do the latter.",
             attribution: null
@@ -18,7 +18,7 @@ export default function Unga() {
         {
           name: "Venkat Rangan",
           title: "(Vice-Chair)",
-          image: "/memberImages/venkat.png",
+          image: "/assets/venkat.png",
           quote: {
             text: "It’s not who I am underneath but what I do that defines me",
             attribution: "Batman"
@@ -31,14 +31,14 @@ export default function Unga() {
           {
             name: "Shachi Sahai",
             title: "(Moderator)",
-            image: "/memberImages/shachi.png",
+            image: "/assets/shachi.png",
             bio: "As an aspiring scientist, Shachi Sahai brings a unique blend of experiences and expertise, both inside and outside the MUN circuit. From serving as a delegate, and volunteering for the International Press Corps, to moderating last year, Shachi discovered her passion for analyzing position papers and leading dynamic discussions.Her interests go far beyond MUN, spanning everything from serology, toxicology, and weaponry to fiber arts, baking, and Muay Thai—an eclectic mix that showcases her curiosity and drive"
           
           },
           {
             name: "Ruhaan Jaiswal",
             title: "(Moderator)",
-            image: "/memberImages/ruhaan.png",
+            image: "/assets/ruhaan.png",
             bio: "Having been primarily a Security Council delegate and having attended 10 muns with a near-perfect placement record, Ruhaan would like to take a step back and help delegates reform the very committee he loves as part of OAKMUN 2024’s UNGA. Presenting the proud moderator of the soon-to-be best committee of Oakmun 2024."
           
           },

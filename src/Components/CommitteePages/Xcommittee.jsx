@@ -8,7 +8,7 @@ export default function Xcommittee() {
         {
           name: "Abbas Ahmed",
           title: "(Chair)",
-          image: "/memberImages/abbas.png",
+          image: "/assets/abbas.png",
            bio: "Abbas Ahmed is a dedicated and passionate sophomore law student at Ramaiah College of Law, where he actively pursues his commitment to justice and advocacy. He has a strong academic background and has honed his skills in leadership, public speaking, and legal research through participation in moot court competitions, where he has been recognized with wins and awards such as Best Advocate. Abbas has also excelled in parliamentary debates and chaired multiple Model United Nations conferences across the nation, garnering accolades for his contributions. Currently, Abbas is gaining practical legal experience as a Legal Junior at Halo Partners and serves as the Convening President of the Electoral Literacy Club at Ramaiah College of Law. His volunteer work with organizations like Hamara Trust and 40seconds underscores his dedication to social upliftment and human rights advocacy."
 
           
@@ -16,14 +16,14 @@ export default function Xcommittee() {
         {
           name: "Nagappan Arun",
           title: "(Vice-Chair)",
-          image: "/memberImages/nagappan.png",
+          image: "/assets/nagappan.png",
           bio:"Starting his mun journey in GA Committees, Nagappan quickly rose to prominence in Crisis Committees, securing Best Delegate awards at top conferences like CJCMUN, AMUN, and DOCMUN. Outside the world of mun, Nagappan is an aspiring economist aiming to join the Indian Foreign Service. When he’s not immersed in the world of diplomacy, you can find him editing Wikipedia pages or vibing to Olivia Rodrigo."
           
         },
         {
             name: "Soumyajit Roy",
             title: "(Moderator)",
-            image: "/memberImages/soumyajit.png",
+            image: "/assets/soumyajit.png",
             bio: "Soumyajit Roy, the moderator for Committee X at OakMUN 2024, has an impressive track record, including Outstanding Delegate at Harvard MUN 2024 and Best Delegate at Greenwood MUN 2024, along with a Commendable Delegate award at NEEV MUN 2023, to name a few. Known for his charismatic personality, creative problem-solving, and powerful voice, he excels at lobbying and fostering engaging debates. While he enjoys stirring up excitement and creating drama, he always ensures everyone is included. Passionate about current global affairs and building impactful solutions. He is eager to see what OakMUN brings and is excited to make the most of the conference."
           
           },

@@ -10,7 +10,7 @@
   }
 
   .background_container_a {
-    background: url('/images/school.jpg') center center/cover no-repeat; 
+    background: url('/assets/school.jpg') center center/cover no-repeat; 
     background-attachment: fixed;
     background-size: cover;
     height: 25vh;

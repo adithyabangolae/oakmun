@@ -8,7 +8,7 @@ export default function Ipc() {
         {
           name: "Aditi Agarwal",
           title: "(International Head of Press)",
-          image: "/memberImages/aditi.png",
+          image: "/assets/aditi.png",
           quote: {
             text: "How was I supposed to know there’d be consequences for my actions?",
             attribution: "Gina Linetti"
@@ -19,14 +19,14 @@ export default function Ipc() {
         {
           name: "Kuhu Jha",
           title: "(International Head of Press)",
-          image: "/memberImages/kuhu.png",
+          image: "/assets/kuhu.png",
           bio:"From stage fright to centre stage, having spectated in participated in committees on far end of the spectrum, she holds the ability to thrive in any environment. Having been part of the executive board at prestigious conferences like AMUN, GWHMUN, and CISMUN, she hosts a variety of skill to domineer an audience and guide any committee."
           
         },
         {
             name: "Pratham Ram Gowda",
             title: "(Assistant Head of Press)",
-            image: "/memberImages/pratham.png",
+            image: "/assets/pratham.png",
             quote: {
                 text: "In the midst of chaos, there is also opportunity",
                 attribution: "Sun Tzu"

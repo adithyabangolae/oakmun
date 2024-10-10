@@ -8,7 +8,7 @@ export default function Hsc() {
         {
           name: "BS Chetan Swaroop Reddy",
           title: "(Co-Chair)",
-          image: process.env.PUBLIC_URL + "/memberImages/chetan.png",
+          image: "/assets/chetan.png",
           quote: {
             text: "It’s either you be dominated or dominate, and i always prefer to do the latter.",
             attribution: null
@@ -18,7 +18,7 @@ export default function Hsc() {
         {
           name: "Rito Sarkar",
           title: "(Co-Chair)",
-          image: "/memberImages/rito.png",
+          image: "/assets/rito.png",
           quote: {
             text: "Sure bub. Let’s think.",
             attribution: null
@@ -28,7 +28,7 @@ export default function Hsc() {
         {
             name: "Sourav Satish",
             title: "(Moderator)",
-            image: "/memberImages/sourav.png",
+            image: "/assets/sourav.png",
             bio: "Sourav, the moderator of UNSC, is a 10th-grade student who has rapidly gained recognition in the MUN circuit. Despite starting his MUN journey less than three years ago, he has attended 10 conferences with a almost perfect placement record. His accolades include successes at prestigious conferences such as GWH MUN , DMUN, SNIS MUN and many more.Outside the world of MUN, Sourav is passionate about football and has dedicated his entire life playing it and he loves supporting Man City. He’s excited to join the team for the first edition of the conference and looks forward to making this event a memorable one."
           
           },

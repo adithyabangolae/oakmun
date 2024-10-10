@@ -58,14 +58,14 @@ export default function Resources() {
     <div className="container_r ">
       <div className="info-section_r ">
         <div className="image-container_r ">
-          <img src="/images/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
+          <img src="/assets/tips.png" alt="Tips to Success at YMUN LI" className="info-image" />
         </div>
         <div className="text-container_r ">
           <h2 className="title_r ">TIPS TO SUCCESS AT OakMUN</h2>
           <p className="description_r ">
             Click the button below for a guide to success at OakMUN, including tips on
             researching effectively for your committee, preparing for the conference, and
-            making the most of your time in New Haven on Oakkridge's campus!
+            making the most of your time in new haven on Oakridge's campus!
           </p>
           <a
       href="/assets/tipsAndGuidelines.pdf"
