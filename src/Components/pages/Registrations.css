@@ -26,17 +26,13 @@
   }
 
   .registrations_heading > h1 {
-  font-size: 2rem;         
+  font-size: 30px;         
   letter-spacing: 0.2rem;   
   text-transform: uppercase; 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Futura-Book';
+  font-weight:400;
   color: black;
   
-   
- 
- 
- 
   }
 
   .button_reg {

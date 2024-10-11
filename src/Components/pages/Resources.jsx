@@ -12,13 +12,13 @@ export default function Resources() {
 
 <div className='background_container_r'> </div>
 
- <div className='resources'>
+<div className='resources'>
       <div className='resources_container'>
         <div className="resources_heading">
-        <h1>Delegate resources</h1>
+        <h1>Delegate Resources</h1>
         </div>
 
-<div className="button">
+<div className="button_res">
 <a
       href="https://docs.google.com/spreadsheets/d/1luo-NycRp8VC8AQ88MeSsWTlccCNCstVOSiYJ9A2qsM/edit?usp=sharing"
       target="_blank"
@@ -32,23 +32,34 @@ export default function Resources() {
       }}
     >
          <Button buttonStyle='btn--r' >
-          Matrix 
+          Matrix
           <i className="fas fa-arrow-right"
           style={{marginLeft:5,
             
           }}></i>
           </Button>
-          </a>
-
+</a>
           </div>
-
+          <div className="button_res">
+          <a
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ 
+        textDecoration: 'none', 
+        color: 'inherit', 
+        display: 'block', 
+        width: '100%', 
+        height: '100%' 
+      }}
+    >
           <Button buttonStyle='btn--r'
          >
-        Background guides 
+        Background guides
           <i className="fas fa-arrow-right"
           style={{marginLeft:5}}></i>
           </Button>
-
+</a>
+</div>
          
 
       
@@ -65,7 +76,7 @@ export default function Resources() {
           <p className="description_r ">
             Click the button below for a guide to success at OakMUN, including tips on
             researching effectively for your committee, preparing for the conference, and
-            making the most of your time in new haven on Oakridge's campus!
+            making the most of your time in bangalore on Oakridge's campus!
           </p>
           <a
       href="images/tipsAndGuidelines.pdf"

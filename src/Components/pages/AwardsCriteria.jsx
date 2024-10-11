@@ -13,10 +13,13 @@ export default function AwardsCriteria() {
 
  <div className='ac'>
       <div className='ac_container'>
+
+      <div className="awards-criteria-heading">
+            <h2>AWARDS CRITERIA</h2>
+            </div>
         
       <div className="awards-criteria">
-            <h1>AWARDS CRITERIA</h1>
-
+        
             <p className="intro-text">
               Oakridge Model United Nations is, above all, a conference designed to
               teach, empower, and encourage student leadership within an

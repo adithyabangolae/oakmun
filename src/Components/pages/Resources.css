@@ -21,27 +21,23 @@
   .resources {
     padding: 2rem;
     background: white;
-    height: 400px;
+    height: 330px;
     
   }
 
   .resources_heading > h1 {
-  font-size: 2rem;         
-  letter-spacing: 0.2rem;   
-  text-transform: uppercase; 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  color: black;
+    font-size: 30px;         
+    letter-spacing: 0.2rem;   
+    text-transform: uppercase; 
+    font-family: 'Futura-Book';
+    font-weight:400;
+    color: black;
   
-  margin-top: -50px; 
- 
- 
- 
   }
 
-  .button {
-    margin-top: -30px;
-    margin-bottom: 15px;
+  .button_res {
+    margin-top: 60px;
+    margin-bottom: -20px;
   }
 
   .container_r  {
@@ -51,8 +47,9 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-    margin-top: -70px;
+    margin-top: -40px;
     margin-left: 440px;
+    margin-bottom: 50px;
   }
   
   .info-section_r  {

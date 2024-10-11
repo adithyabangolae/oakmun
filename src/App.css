@@ -43,25 +43,9 @@
 
   
   
-  .home,
-  .resources,
-  .committees,
-  .resources,
-  .registerations {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
+ 
   
-  .resources {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: black;
-    font-size: 100px;
-  }
+  
   
  
   
