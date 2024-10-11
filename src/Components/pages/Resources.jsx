@@ -55,8 +55,11 @@ export default function Resources() {
           <Button buttonStyle='btn--r'
          >
         Background guides
+      
           <i className="fas fa-arrow-right"
           style={{marginLeft:5}}></i>
+         
+          <strong>  (Coming Soon!) </strong>
           </Button>
 </a>
 </div>

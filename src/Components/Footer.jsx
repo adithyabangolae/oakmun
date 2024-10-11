@@ -17,10 +17,13 @@ const center = {
 function Footer() {
  
   return (
+    
     <div className='footer-container'>
-      <div className="quote_footer">
+
+<div className="quote_footer">
           <p>Show them who you are.</p>
          </div>
+      
       <section className='footer-contact'>
         <p className='footer-heading'>
           Contact Details
@@ -32,6 +35,8 @@ function Footer() {
           >events.blr@oakridge.in</a>
         </p>
       </section>
+
+      
 
     
         <div className="icon-container">
@@ -69,9 +74,7 @@ function Footer() {
     </div>
         
       
-      <div className="website-rights">
-         <p> © 2024 Oakridge Model United Nations </p>
-         </div>
+    
 
 
          <section className='footer-venue'>
@@ -94,6 +97,10 @@ function Footer() {
        
         
       </section>
+
+      <div className="website-rights">
+         <p> © 2024 Oakridge Model United Nations </p>
+         </div>
 
     </div>
 
