@@ -6,7 +6,7 @@ export const MenuItemsReg = [
     },
     {
       title: 'TERMS AND CONDITIONS ',
-      path: 'images/termsAndConditions.pdf',
+      path: 'images/toc.pdf',
       cName: 'dropdown-link',
       external: true
     },
