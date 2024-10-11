@@ -1,4 +1,11 @@
 
+
+@font-face {
+  font-family:'Futura-Book';
+  src: url('../public/FuturaBook.ttf') format('truetype');
+ 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
