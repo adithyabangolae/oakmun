@@ -7,7 +7,14 @@ export default function AboutUs() {
     return (
         <>
 
-<div className='background_container_a'> </div>
+ <div className='aboutus-container'>
+
+
+      
+<h1>Oakridge's PREMIER Model UN Conference</h1>
+
+
+</div>
 
 
      <div className='aboutus'>

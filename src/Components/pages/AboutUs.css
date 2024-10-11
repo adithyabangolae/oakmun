@@ -1,3 +1,64 @@
+.aboutus-container {
+  background: url('/images/aboutus.png') center center/cover no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+
+
+
+.aboutus-container  > h1 {
+  
+  color: #10416D;
+  font-size: 52px;
+  background-color: white;
+  width: 600px;
+  padding: 30px;
+  padding-bottom: 2;
+  margin-left: -40rem;
+  font-family: AntiquaBold;
+  font-weight: 400;
+  
+  font-style: italic;
+  letter-spacing: .06em;
+  
+ 
+
+  
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .aboutus-container > h1 {
+    justify-content: center;
+    font-size: 60px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutus-container > h1 {
+    justify-content: center;
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  
+}
+
+
 .aboutus__container {
     display: flex;
     flex-flow: column;
@@ -9,15 +70,7 @@
   
   }
 
-  .background_container_a {
-    background: url('/images/school.jpg') center center/cover no-repeat; 
-    background-attachment: fixed;
-    background-size: cover;
-    height: 25vh;
-    width: 100%;
-    display: flex;
-    
-  }
+  
 
   .about_para > p {
     font-family: 'Nunito', sans-serif;

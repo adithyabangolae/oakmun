@@ -23,7 +23,7 @@ export default function Disec() {
                 text: "One of the penalties of refusing to participate in politics is that you end up being governed by your inferiors",
                 attribution: "Plato"
               },
-            bio: "Sourav, the moderator of UNSC, is a 10th-grade student who has rapidly gained recognition in the MUN circuit. Despite starting his MUN journey less than three years ago, he has attended 10 conferences with a almost perfect placement record. His accolades include successes at prestigious conferences such as GWH MUN , DMUN, SNIS MUN and many more.Outside the world of MUN, Sourav is passionate about football and has dedicated his entire life playing it and he loves supporting Man City. He’s excited to join the team for the first edition of the conference and looks forward to making this event a memorable one."
+            bio: "Atharva is a seasoned MUNer, who exclusively attends UNSCs and DISECs and is well-versed in the nuances of international security and conflict. In his time MUNing, he’s done everything from making Iran admit to breaking 7 counts of international law in formal session and being voted the most evil EB member to invading countries and assassinating Osama bin Laden. He’s also a sharp-tongued-quick-thinking-nerdy-anti-capitalist-bibliophilic-hexaglot, leader of Oakridge’s Debate Club, an archer, and a questionably skilled pianist."
           
           },
       ];

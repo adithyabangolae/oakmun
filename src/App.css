@@ -13,6 +13,20 @@
  
 }
 
+@font-face {
+  font-family:Antiqua;
+  src: url('/fonts/Antiqua.woff2') format('woff2');
+  
+ 
+}
+
+@font-face {
+  font-family:AntiquaBold;
+  src: url('/fonts/AntiquaBold.woff2') format('woff2');
+  
+ 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
