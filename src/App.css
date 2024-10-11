@@ -2,7 +2,14 @@
 
 @font-face {
   font-family:'Futura-Book';
-  src: url('/FuturaBook.ttf') format('truetype');
+  src: url('/fonts/FuturaBook.woff2') format('woff2');
+ 
+}
+
+@font-face {
+  font-family:'Rounds';
+  src: url('/fonts/RoundsNeue.woff2') format('woff2');
+  
  
 }
 

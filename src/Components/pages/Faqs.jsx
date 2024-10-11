@@ -22,7 +22,7 @@ export default function Faqs() {
             marginBottom:40      
           }}/>
 
-<div className="ymun-faq">
+<div className="mun-faq">
       <h3>What is the dress code?</h3>
       
       <p>

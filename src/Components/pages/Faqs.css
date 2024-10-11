@@ -37,7 +37,7 @@
 
  
   
-  .ymun-faq {
+  .mun-faq {
     max-width: 840px;
     margin: 0 auto;
     padding: 24px;
@@ -47,7 +47,7 @@
   }
 
 
-  .ymun-faq h3 {
+  .mun-faq  > h3 {
     font-size: 20px;
     font-weight: 400;
     color: black;
@@ -57,11 +57,11 @@
     
   }
 
-  .ymun-faq p {
+  .mun-faq > p {
     color: black;
     line-height: 1.6;
     margin-bottom: 16px;
-    font-family: 'Nunito', sans-serif;
+     font-family:'Nunito';
     font-weight: 100;
   }
 
