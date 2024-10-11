@@ -58,7 +58,7 @@ export default function Schedule() {
             alignItems: 'center',
             margin: '0 auto',
             marginTop: -20,
-            marginBottom: 60
+            marginBottom: 50
           }} />
 
           <div className="schedule-item">

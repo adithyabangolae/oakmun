@@ -12,7 +12,8 @@
     font-size: 42px;
     width: 230px;
     margin-left: 78rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura-Book';
+    letter-spacing: 0.5px;
     font-weight: 400;
     color: white;
     display: flex;
@@ -48,15 +49,18 @@
   }
 
   .footer-venue > p {
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Futura-Book';
+    font-weight:400;
+    letter-spacing: 0.5px;
       
   }
 
   
   
   .footer-contact > p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura-Book';
+    font-weight:400;
+    letter-spacing: 0.5px;
     
       
   }
@@ -140,7 +144,8 @@
 
   .website-rights > p {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura-Book';
+    font-weight:400;
     margin-left: 270px;
   }
   
