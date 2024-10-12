@@ -4,7 +4,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api'
 
-const mapContainerStyle = {
+/*const mapContainerStyle = {
   width: '100%',
   height: '400px'
 }
@@ -13,6 +13,7 @@ const center = {
   lat: 13.0827,
   lng: 77.6376
 }
+  */
 
 function Footer() {
  
@@ -21,8 +22,8 @@ function Footer() {
     <div className='footer-container'>
 
 <div className="quote_footer">
-          <p>Show them who you are.</p>
-         </div>
+  <p>Show them who you are.</p>
+</div>
       
       <section className='footer-contact'>
         <p className='footer-heading'>
@@ -98,7 +99,8 @@ function Footer() {
         
       </section>
 
-      <div className="website-rights">
+      <div className="website-rights" 
+      style={{marginTop:-30}}>
          <p> © 2024 Oakridge Model United Nations </p>
          </div>
 

@@ -21,7 +21,7 @@
     margin-left: 39rem;
     margin-top: 7.45rem;
     object-fit: cover;
-    
+    max-width: 100%;
     
     
   }
@@ -32,6 +32,7 @@
     margin-left: 39rem;
     margin-top: 69.5rem;
     object-fit: cover;
+    max-width: 100%;
     
     
     
@@ -140,14 +141,3 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) {
-    .cards__items {
-      display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
-    }
-  }

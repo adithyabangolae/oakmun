@@ -115,17 +115,20 @@ export default function Ccc() {
         </React.Fragment>
       ))}
     </div>
+
+   
     
 <div className="member-name_a">
     <h2>
       Arryaa Oduru
-    </h2>
+</h2>
     </div>
 <div className="member-title_a">
     <h2>
       (Crisis Director)
     </h2>
     </div>
+   
 
      </div>
    </div>

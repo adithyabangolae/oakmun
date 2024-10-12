@@ -13,19 +13,20 @@ export default function Disec() {
           
         },
         {
-          image: "/images/riti.png",
+          name: "Atharva Bhagat",
+          title: "(Moderator)",
+          image: "/images/atharva.png",
+          quote: {
+              text: "One of the penalties of refusing to participate in politics is that you end up being governed by your inferiors",
+              attribution: "Plato"
+            },
+          bio: "Atharva is a seasoned MUNer, who exclusively attends UNSCs and DISECs and is well-versed in the nuances of international security and conflict. In his time MUNing, he’s done everything from making Iran admit to breaking 7 counts of international law in formal session and being voted the most evil EB member to invading countries and assassinating Osama bin Laden. He’s also a sharp-tongued-quick-thinking-nerdy-anti-capitalist-bibliophilic-hexaglot, leader of Oakridge’s Debate Club, an archer, and a questionably skilled pianist."
+        
         },
         {
-            name: "Atharva Bhagat",
-            title: "(Moderator)",
-            image: "/images/atharva.png",
-            quote: {
-                text: "One of the penalties of refusing to participate in politics is that you end up being governed by your inferiors",
-                attribution: "Plato"
-              },
-            bio: "Atharva is a seasoned MUNer, who exclusively attends UNSCs and DISECs and is well-versed in the nuances of international security and conflict. In his time MUNing, he’s done everything from making Iran admit to breaking 7 counts of international law in formal session and being voted the most evil EB member to invading countries and assassinating Osama bin Laden. He’s also a sharp-tongued-quick-thinking-nerdy-anti-capitalist-bibliophilic-hexaglot, leader of Oakridge’s Debate Club, an archer, and a questionably skilled pianist."
-          
-          },
+          image: "/images/riti.png",
+        },
+        
       ];
   return (
 
@@ -64,6 +65,8 @@ export default function Disec() {
           }}
           
           />
+
+          
 
 <div className="executive-board">
             <h1 className="board-title">Meet your Executive Board</h1>
@@ -104,8 +107,11 @@ export default function Disec() {
     </h2>
     </div>
 
+         
+    </div>
+
      </div>
-   </div>
+   
 
 
 
