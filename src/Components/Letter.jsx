@@ -44,15 +44,22 @@ function Letter() {
     <p>
       Dear delegates, diplomats, and changemakers, <br/> <br/>
 
-The spotlight of anticipation has been cast, and the curtains are closer to being drawn to reveal
-the main event, Oakridge Model United Nations 2024. It’s a distinct honor to serve as your secretary general for the conference this year. As the 21st century marches on, the world plunges further into darkness. It’s your duty as delegates involved in what was once established as a bastion of global peace to engage in debate of the highest quality.
+      The spotlight of anticipation has been cast, and the curtains are closer to being drawn to reveal the main event, Oakridge Model United Nations 2024. 
+      It’s a distinct honor to serve as your secretary general for the conference this year.
+       As the 21st century marches on, the world plunges further into darkness. 
+       It’s your duty as delegates involved in what was once established as a bastion of global peace to engage in debate of the highest quality.
 <br/> <br/>
-Extremism keeps us on the precipice of monumental conflict, clashes of ideology threaten to drown the world in war, and countries that wield power on the global stage are left unmoderated. This year, you as delegates can change the world, or the course of history in itself, in our 8 diverse committees. As leaders on the international stage, it’s your job to ensure the prevention of catastrophe. 
+Extremism keeps us on the precipice of monumental conflict, clashes of ideology threaten to drown the world in war, and countries that wield power on the global stage are left unmoderated. 
+This year, you as delegates can change the world, or the course of history itself, in our 8 diverse committees. 
+As leaders on the international stage, it’s your job to ensure the prevention of catastrophe.
 <br/> <br/>
-A puppet master’s only concern is how well he can manipulate his marionettes, as delegates in both historical and contemporary committees, you must work to change the world as we know it, whether it’s according to your liking or not, is up to your performance. Remember to research well, but know that your preparation period will simply be the calm before the storm.
+A puppet master’s only concern is how well he can manipulate his marionettes, and as delegates in both historical and contemporary committees, you must work to change the world as we know it. 
+Whether this change is according to your liking or not, is up to your performance.
+ Remember to research well, but know that your preparation period will simply be the calm before the storm.
 <br/> <br/>
-Thus let us commence with the proceedings of Oakridge Model United Nations 2024. Bang your
-tables until your palms redden, laugh until your stomachs ache, defend your stance to your last breath, and make sure your voice is heard across the room. As global powers and people in the United Nations, you are the directors of the planet’s greatest theatrical spectacle. The world is in the palm of your hands, let’s see what you make of it.
+Thus let us commence with the proceedings of Oakridge Model United Nations 2024. Bang your tables until your palms redden, laugh until your stomachs ache, defend your stance to your last breath, and make sure your voice is heard across the room. 
+As global powers and portfolios in the United Nations, you are the directors of the planet’s greatest theatrical spectacle. 
+The world is in the palm of your hands, let’s see what you make of it.
 <br/> <br/>
 I’ll see you in November,
 <br/> <br/>
