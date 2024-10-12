@@ -142,7 +142,7 @@ style={{marginTop:40}}>
   <div class="secretariat-block">
     
     <h3>DIRECTOR-GENERAL:</h3>
-    <p>RIYA IYENGER</p>
+    <p>RIYA IYENGAR</p>
     <img src="images/default_image.png" alt="Director of Operations"/>
   </div>
   <div class="secretariat-block">
