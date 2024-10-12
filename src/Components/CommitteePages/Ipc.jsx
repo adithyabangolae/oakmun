@@ -50,7 +50,7 @@ export default function Ipc() {
 
        <div className="agenda_ipc">
         <h2>
-            Agenda: Correlation Vs. causuality in the context of the media 
+            Agenda: Correlation vs. causuality in the context of the media 
         </h2>
     
        </div>

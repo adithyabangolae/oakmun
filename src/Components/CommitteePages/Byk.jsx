@@ -54,14 +54,14 @@ export default function Byk() {
 
        <div className="agenda_byk">
         <h2>
-            Agenda: Delibration on Indo-China relations with special reference on NEFA region
+            Agenda: Delibration on Indo-China relations with special reference on the NEFA region
         </h2>
     
        </div>
 
        <div className="freeze_byk">
         <h2>
-            Freeze date: Octobor 26, 1962
+            Freeze date: October 26, 1962
         </h2>
     
        </div>

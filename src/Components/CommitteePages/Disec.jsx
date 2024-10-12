@@ -13,6 +13,9 @@ export default function Disec() {
           
         },
         {
+          image: "/images/riti.png",
+        },
+        {
           name: "Atharva Bhagat",
           title: "(Moderator)",
           image: "/images/atharva.png",
@@ -22,9 +25,6 @@ export default function Disec() {
             },
           bio: "Atharva is a seasoned MUNer, who exclusively attends UNSCs and DISECs and is well-versed in the nuances of international security and conflict. In his time MUNing, he’s done everything from making Iran admit to breaking 7 counts of international law in formal session and being voted the most evil EB member to invading countries and assassinating Osama bin Laden. He’s also a sharp-tongued-quick-thinking-nerdy-anti-capitalist-bibliophilic-hexaglot, leader of Oakridge’s Debate Club, an archer, and a questionably skilled pianist."
         
-        },
-        {
-          image: "/images/riti.png",
         },
         
       ];

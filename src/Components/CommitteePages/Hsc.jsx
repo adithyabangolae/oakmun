@@ -49,14 +49,14 @@ export default function Hsc() {
 
        <div className="agenda_hsc">
         <h2>
-            Agenda: The cuban missile crisis
+            Agenda: The Cuban Missile Crisis
         </h2>
     
        </div>
 
        <div className="freeze_hsc">
         <h2>
-            Freeze date: Octobor 22, 1962
+            Freeze date: October 22, 1962
         </h2>
     
        </div>
