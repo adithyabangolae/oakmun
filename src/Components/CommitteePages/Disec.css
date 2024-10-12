@@ -224,12 +224,15 @@ text-align: center;
     }
 
     .member-title_d {
-margin-top: 5rem;
+margin-top: 1rem;
+margin-left:4rem; 
     }
     .member-name_d {
-   margin-left: 15rem;
-   margin-top: 5rem;
+   margin-left: 6rem;
+   margin-top: -13.2rem;
    text-align: center;
+   
+   
           }
 
 
