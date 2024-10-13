@@ -79,7 +79,7 @@ export default function Resources() {
           <p className="description_r ">
             Click the button below for a guide to success at OakMUN, including tips on
             researching effectively for your committee, preparing for the conference, and
-            making the most of your time in bangalore on Oakridge's campus!
+            making the most of your time in Bangalore on Oakridge's campus!
           </p>
           <a
       href="images/tipsAndGuidelines.pdf"
