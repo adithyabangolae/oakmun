@@ -8,7 +8,7 @@ export default function Schedule() {
       <div className='schedule'>
         <div className='schedule__container'>
           <div className="schedule_heading">
-            <h1>OakMUN schedule</h1>
+            <h1>OakMUN Schedule</h1>
           </div>
 
           <div className="schedule-item">
