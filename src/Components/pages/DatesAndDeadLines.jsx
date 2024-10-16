@@ -27,10 +27,9 @@ export default function DatesAndDeadLines() {
         </div>
 
         <div className="dand-column">
-        <p><strong>10th October:</strong> Early Bird [Individual and Delegation] Registrations Open (Fee: Rs. 1500)</p>
-<p><strong>18th October:</strong> Early Bird [Individual and Delegation] Registrations Close (Fee: Rs. 1500 per delegate)</p>
-<p><strong>19th October:</strong> Regular [Individual and Delegation] Registrations Open (Fee: Rs. 1800 per delegate)</p>
-<p><strong>November 2nd:</strong> Regular [Individual and Delegation] Registrations Close (Fee: Rs. 1800)</p>
+        <p><strong>24th October:</strong> Early Bird [Individual and Delegation] Registrations Close (Fee: Rs. 1500)</p>
+<p><strong>25th October:</strong> Regular [Individual and Delegation] Registrations Open (Fee: Rs. 1500 per delegate)</p>
+<p><strong>28th October:</strong> Regular [Individual and Delegation] Registrations Close (Fee: Rs. 1800 per delegate)</p>
 <p><strong>November 8th:</strong> Conference Begins</p>
 <p><strong>November 9th:</strong> Socials</p>
     </div>
