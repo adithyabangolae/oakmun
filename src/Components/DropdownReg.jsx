@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { MenuItemsReg } from './MenuItemsReg';
 
-function DropdownReg() {
+function DropdownReg({closeMobileMenu}) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -18,7 +18,7 @@ function DropdownReg() {
       style={{ marginTop: -60 }}
     >
       <ul
-        onClick={handleClick}
+        onClick={handleClick && closeMobileMenu}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
         {MenuItemsReg.map((item, index) => {

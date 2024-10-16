@@ -4,9 +4,10 @@ import './Dropdown.css';
 import { Link } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 
-function DropdownCom() {
+function DropdownCom({closeMobileMenu}) {
   const [click, setClick] = useState(false);
-
+ 
+  
   const handleClick = () => setClick(!click);
 
   return (
@@ -21,7 +22,7 @@ function DropdownCom() {
     }}
     >
       <ul
-        onClick={handleClick}
+        onClick={handleClick && closeMobileMenu}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
         {MenuItemsCom.map((item, index) => {

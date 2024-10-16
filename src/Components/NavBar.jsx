@@ -1,156 +1,89 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-
-import DropdownCom from './DropdownCom';
-import DropdownCon from './DropdownCon';
-import DropdownReg from './DropdownReg';
-
-
-
-
+import DropdownCom from './DropdownCom'; // For Committees
+import DropdownCon from './DropdownCon'; // For Conference
+import DropdownReg from './DropdownReg'; // For Registrations
 
 function NavBar() {
-  const [click,setClick] = useState(false);
- 
-  const [conferenceDropdown, setConferenceDropdown] = useState(false); 
+  const [click, setClick] = useState(false);
   const [committeesDropdown, setCommitteesDropdown] = useState(false);
-  const [registerationsDropdown, setRegisterationsDropdown] = useState(false);
-  
+  const [conferenceDropdown, setConferenceDropdown] = useState(false);
+  const [registrationsDropdown, setRegistrationsDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false)
+  const closeMobileMenu = () => setClick(false);
+  const closeDropdown = () => setClick(false);
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true)
-    }
-  }
+ const toggleCommitteesDropdown = () => setCommitteesDropdown(!committeesDropdown);
+  const toggleConferenceDropdown = () => setConferenceDropdown(!conferenceDropdown);
+  const toggleRegistrationsDropdown = () => setRegistrationsDropdown(!registrationsDropdown);
 
-  const onConferenceMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setConferenceDropdown(false);
-    } else {
-      setConferenceDropdown(true);
-    }
-  };
-
-  const onConferenceMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setConferenceDropdown(false);
-    } else {
-      setConferenceDropdown(false);
-    }
-  };
-
- 
-  const onCommitteesMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setCommitteesDropdown(false);
-    } else {
-      setCommitteesDropdown(true);
-    }
-  };
-
-  const onCommitteesMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setCommitteesDropdown(false);
-    } else {
-      setCommitteesDropdown(false);
-    }
-  };
-
-
-  const onRegisterationsMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setRegisterationsDropdown(false);
-    } else {
-      setRegisterationsDropdown(true);
-    }
-  };
-
-  const onRegisterationsMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setRegisterationsDropdown(false);
-    } else {
-      setRegisterationsDropdown(false);
-    }
-  };
-
-
-
-
-  window.addEventListener('resize',showButton)
+  
   return (
     <>
-    <nav className='navbar'>
-        <div className='navbar-container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src="/images/logo.jpg" alt="Logov3"/>
-            </Link>
-            <div className="menu-icon" onClick={handleClick}>
-              <i className={click ? 'fas fa-times': 'fas fa-bars'} />
-            </div>
-            <ul className={click ? 'nav-menu active': 'nav-menu'}> 
-              <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <img src="/images/logo.jpg" alt="Logo" />
+          </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 HOME
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link to='/aboutus' className='nav-links' onClick={closeMobileMenu}>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/aboutus" className="nav-links" onClick={closeMobileMenu}>
                 ABOUT US
-                </Link>
-              </li>
-              <li className='nav-item' >
-                <Link to='/resources' className='nav-links' onClick={closeMobileMenu}>
-                 RESOURCES
-                </Link>
-             
-              </li>
-              <li className='nav-item'
-              onMouseEnter={onCommitteesMouseEnter}
-              onMouseLeave={onCommitteesMouseLeave}
->
-                <Link  className='nav-links' onClick={closeMobileMenu}>
-                COMMITTEES
-                </Link>
-                {committeesDropdown &&
-                  <DropdownCom/>
-                }
-              </li>
-              <li className='nav-item'
-              onMouseEnter={onConferenceMouseEnter}
-              onMouseLeave={onConferenceMouseLeave}
-              >
-                <Link  className='nav-links' onClick={closeMobileMenu}>
-                CONFERENCE
-                </Link>
-                {conferenceDropdown &&
-                  <DropdownCon/>
-                }
-                </li>
-                <li className='nav-item'
-                 onMouseEnter={onRegisterationsMouseEnter}
-                 onMouseLeave={onRegisterationsMouseLeave}
-                >
-                <Link  className='nav-links' onClick={closeMobileMenu}>
-                REGISTRATION
-                </Link>
-                {registerationsDropdown &&
-                  <DropdownReg/>
-                }
-              </li>
-              
-            </ul>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/resources" className="nav-links" onClick={closeMobileMenu}>
+                RESOURCES
+              </Link>
+            </li>
 
+            
+            <li className="nav-item"
+              onClick={window.innerWidth <= 960 ? toggleCommitteesDropdown : null}
+              onMouseEnter={window.innerWidth > 960 ? () => setCommitteesDropdown(true) : null}
+              onMouseLeave={window.innerWidth > 960 ? () => setCommitteesDropdown(false) : null}>
+              <Link className="nav-links">
+                COMMITTEES
+              </Link>
+              {committeesDropdown && <DropdownCom closeMobileMenu={closeMobileMenu} />}
+            </li>
+
+            
+            <li className="nav-item"
+              onClick={window.innerWidth <= 960 ? toggleConferenceDropdown : null}
+              onMouseEnter={window.innerWidth > 960 ? () => setConferenceDropdown(true) : null}
+              onMouseLeave={window.innerWidth > 960 ? () => setConferenceDropdown(false) : null}>
+              <Link className="nav-links">
+                CONFERENCE
+              </Link>
+              {conferenceDropdown && <DropdownCon closeMobileMenu={closeMobileMenu} />}
+            </li>
+
+            
+            <li className="nav-item"
+              onClick={window.innerWidth <= 960 ? toggleRegistrationsDropdown : null}
+              onMouseEnter={window.innerWidth > 960 ? () => setRegistrationsDropdown(true) : null}
+              onMouseLeave={window.innerWidth > 960 ? () => setRegistrationsDropdown(false) : null}>
+              <Link className="nav-links">
+                REGISTRATION
+              </Link>
+              {registrationsDropdown && <DropdownReg closeMobileMenu={closeMobileMenu} />}
+            </li>
+          </ul>
         </div>
-      
-    </nav>
+      </nav>
     </>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;
