@@ -69,9 +69,18 @@ function Footer() {
         <img src="images/icon_instagram.png" alt="Instagram Icon" />
       </div>
       </a>
+      <a
+      href="https://github.com/adithyabangolae/oakmun"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ 
+        
+      }}
+    >
       <div className="icon">
         <img src="images/icon_github.png" alt="GitHub Icon" />
       </div>
+      </a>
     </div>
         
       
