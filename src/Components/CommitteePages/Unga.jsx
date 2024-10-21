@@ -59,7 +59,7 @@ export default function Unga() {
 
        <div className="agenda_Unga">
         <h2>
-            Agenda: Re-evaluating the security council's P5 system in the context of international copperation
+            Agenda: Re-evaluating the security council's P5 system in the context of international cooperation
         </h2>
     
        </div>
