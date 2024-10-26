@@ -20,7 +20,7 @@ export default function Registrations() {
 
 <div className="button_reg">
 <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSfXDcvAFUlDG9U_HCTOQzzhu132pS16CiG2Q2O4xYhRmoW6cw/viewform"
+      href="https://forms.gle/RrXZ2U3T7EKtx7cb9"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -42,7 +42,7 @@ export default function Registrations() {
           </div>
           <div className="button_reg">
           <a
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd5f_5MTo-ahFOokglaqguBXb6mTll-pIXMDOL_xTUGIwrbQg/viewform"
+      href="https://forms.gle/eiZZw8kfWchscYSb9"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
