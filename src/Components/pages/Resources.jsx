@@ -42,6 +42,7 @@ export default function Resources() {
           </div>
           <div className="button_res">
           <a
+           href="https://drive.google.com/drive/folders/19j2506GYf9HrXIQe_gc-KIDj_woi7zjg?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       style={{ 
@@ -59,7 +60,7 @@ export default function Resources() {
           <i className="fas fa-arrow-right"
           style={{marginLeft:5}}></i>
          
-          <strong>  (Coming Soon!) </strong>
+         
           </Button>
 </a>
 </div>
