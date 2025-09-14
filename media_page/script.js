@@ -1,11 +1,23 @@
 // Example JSON (in reality you’d load this from a file or API)
 const updatesData = [
     {
+        title: "OAKMUN: An Insider Account of Greatness",
+        caption: "An Insider's Perspective on OAKMUN",
+        href: "../media/blog3.html",
+        image: "b1.jpg"
+    },
+    {
+        title: "Inside OAKMUN 2025 with Director General Akshat Gupta",
+        caption: "A Deep Dive into OAKMUN 2025",
+        href: "../media/blog2.html",
+        image: "b2.jpg"
+    },
+    {
         title: "What is OAKMUN?",
         caption: "An Introduction to OAKMUN",
         href: "../media/blog1.html",
         image: "im2.jpeg"
-    }
+    },
 ];
 
 const feed = document.getElementById("updates-feed");
