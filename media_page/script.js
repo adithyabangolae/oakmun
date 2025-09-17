@@ -1,7 +1,19 @@
 // Example JSON (in reality you’d load this from a file or API)
 const updatesData = [
     {
-        title: "OAKMUN: An Insider Account of Greatness",
+        title: "Decoding the Future: ECOSOC’s Bold Dive into Cryptocurrency Regulation",
+        caption: "The Vision: Adapt, Think Bigger, Think Forward",
+        href: "../media/blog5.html",
+        image: "fin.jpg"
+    },
+    {
+        title: "Leading OakMUN 2025 — Secretary General Soumyajit Sur Roy",
+        caption: "Giving Voice to the Unheard",
+        href: "../media/blog4.html",
+        image: "im2.jpeg"
+    },
+    {
+        title: "OAKMUN: An Insider Account of Greatness - Rishita Borah",
         caption: "An Insider's Perspective on OAKMUN",
         href: "../media/blog3.html",
         image: "b1.jpg"
@@ -16,7 +28,7 @@ const updatesData = [
         title: "What is OAKMUN?",
         caption: "An Introduction to OAKMUN",
         href: "../media/blog1.html",
-        image: "im2.jpeg"
+        image: "im4.jpeg"
     },
 ];
 
