@@ -1,6 +1,12 @@
 // Example JSON (in reality you’d load this from a file or API)
 const updatesData = [
     {
+        title: "Humanitarian Diplomacy in a Polarised World: HRC at OakMUN 2025",
+        caption: "Navigating Challenges, Fostering Cooperation",
+        href: "../media/blog6.html",
+        image: "hrc.jpg"
+    },
+    {
         title: "Decoding the Future: ECOSOC’s Bold Dive into Cryptocurrency Regulation",
         caption: "The Vision: Adapt, Think Bigger, Think Forward",
         href: "../media/blog5.html",
