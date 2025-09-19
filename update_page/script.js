@@ -1,5 +1,11 @@
 // Example JSON (in reality you’d load this from a file or API)
 const updatesData = [
+    // {
+    //     title: "OAKMUN 2025 is LIVE!",
+    //     caption: "The Oakridge International Model United Nations 2025 website is now live! Enjoy the Conference!",
+    //     time: "September 19th, 2025",
+    //     image: "im4.jpeg"
+    // },
     {
         title: "EBs for Commitees have been revealed!",
         caption: "View EB information on our social media or the committee pages.",

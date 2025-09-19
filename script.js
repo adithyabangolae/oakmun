@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const countdownDate = new Date("September 19, 2025 07:29:00").getTime();
+    const countdownDate = new Date("September 19, 2025 08:15:00").getTime();
 
     const updateCountdown = setInterval(() => {
         const now = new Date().getTime();
@@ -198,6 +198,12 @@ function animate() {
 animate();
 
 const updatesData = [
+    // {
+    //     title: "OAKMUN 2025 is LIVE!",
+    //     caption: "The Oakridge International Model United Nations 2025 website is now live! Enjoy the Conference!",
+    //     time: "September 19th, 2025",
+    //     image: "im4.jpeg"
+    // },
     {
         title: "EBs for Commitees have been revealed!",
         caption: "View EB information on our social media or the committee pages.",
