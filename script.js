@@ -22,32 +22,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const timerEl = document.getElementById("countdown-timer");
         
             if (timerEl) {
-                timerEl.textContent = "OAKMUN 2025 has completed";
-                timerEl.style.color = 'var(--accent-color)';
+                // wipe old countdown
+                timerEl.innerHTML = `
+                    <div id="finished-text" style="color: var(--accent-color); font-weight: 600;">
+                        OAKMUN 2025 is complete!
+                    </div>
+                    <div id="sub-text" style="margin-top: 0.5rem; font-size: 1rem; color: var(--sec-accent-color); font-style: italic;">
+                        (Stay tuned for OAKMUN 2026)
+                    </div>
+                `;
         
-                // subtle animation
-                try {
-                    timerEl.animate([
+                // subtle animation for the main text
+                const finishedEl = document.getElementById("finished-text");
+                if (finishedEl && finishedEl.animate) {
+                    finishedEl.animate([
                         { transform: 'scale(0.9)', opacity: 0.6 },
                         { transform: 'scale(1.05)', opacity: 1 },
                         { transform: 'scale(1)', opacity: 1 }
                     ], { duration: 1400, easing: 'cubic-bezier(.2,.9,.2,1)' });
-                } catch (e) {
-                    timerEl.style.transition = 'transform 0.6s ease, color 0.6s ease';
-                    timerEl.style.transform = 'scale(1.03)';
-                    setTimeout(() => timerEl.style.transform = '', 700);
                 }
-        
-                // add subtext below
-                const subText = document.createElement('div');
-                subText.textContent = "(Stay tuned for OAKMUN 2026)";
-                Object.assign(subText.style, {
-                    marginTop: "0.5rem",
-                    fontSize: "1rem",
-                    color: "var(--sec-accent-color)",
-                    fontStyle: "italic"
-                });
-                timerEl.insertAdjacentElement('afterend', subText);
             }
         }
     }, 1000);
@@ -109,6 +102,12 @@ function animate() {
 animate();
 
 const updatesData = [
+    {
+        title: "OAKMUN 2025 is Complete!",
+        caption: "With over 340 delegates from around the world in 10 dynamic committees, Oakridge's first international conference is complete!",
+        time: "September 20th, 2025",
+        image: "im2.jpeg"
+    },
     {
         title: "OAKMUN 2025 is LIVE!",
         caption: "The Oakridge International Model United Nations 2025 website is now live! Enjoy the Conference!",
