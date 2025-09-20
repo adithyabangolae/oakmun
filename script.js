@@ -18,126 +18,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (distance < 0) {
             clearInterval(updateCountdown);
-            // Improved live behavior: announce, animate, and celebrate with confetti
+        
             const timerEl = document.getElementById("countdown-timer");
-            const announceText = "OAKMUN Is Live!";
-
-            function showLiveAnnouncement() {
-                if (timerEl) {
-                    // update text and animate using Web Animations API where available
-                    timerEl.textContent = announceText;
-                    try {
-                        // ensure the live text uses the accent color
-                        timerEl.style.color = 'var(--accent-color)';
-                        timerEl.animate([
-                            { transform: 'scale(0.9)', opacity: 0.6 },
-                            { transform: 'scale(1.06)', opacity: 1 },
-                            { transform: 'scale(1)', opacity: 1 }
-                        ], { duration: 1400, easing: 'cubic-bezier(.2,.9,.2,1)' });
-                    } catch (e) {
-                        // fallback: add a quick inline style pulse
-                        timerEl.style.transition = 'transform 0.6s ease, color 0.6s ease';
-                        timerEl.style.transform = 'scale(1.03)';
-                        timerEl.style.color = 'var(--accent-color)';
-                        setTimeout(() => timerEl.style.transform = '', 700);
-                    }
-                } else {
-                    // If no timer element is present, create a temporary banner
-                    const banner = document.createElement('div');
-                    banner.id = 'live-banner';
-                    banner.textContent = announceText;
-                    Object.assign(banner.style, {
-                        position: 'fixed',
-                        top: '20px',
-                        left: '50%',
-                        transform: 'translateX(-50%)',
-                        background: 'linear-gradient(90deg,var(--accent-color),var(--sec-accent-color))',
-                        color: 'var(--bg-color)',
-                        padding: '12px 20px',
-                        borderRadius: '8px',
-                        zIndex: 9999,
-                        boxShadow: '0 6px 20px rgba(0,0,0,0.2)'
-                    });
-                    document.body.appendChild(banner);
-                    setTimeout(() => banner.remove(), 7000);
+        
+            if (timerEl) {
+                timerEl.textContent = "OAKMUN 2025 has completed";
+                timerEl.style.color = 'var(--accent-color)';
+        
+                // subtle animation
+                try {
+                    timerEl.animate([
+                        { transform: 'scale(0.9)', opacity: 0.6 },
+                        { transform: 'scale(1.05)', opacity: 1 },
+                        { transform: 'scale(1)', opacity: 1 }
+                    ], { duration: 1400, easing: 'cubic-bezier(.2,.9,.2,1)' });
+                } catch (e) {
+                    timerEl.style.transition = 'transform 0.6s ease, color 0.6s ease';
+                    timerEl.style.transform = 'scale(1.03)';
+                    setTimeout(() => timerEl.style.transform = '', 700);
                 }
-            }
-
-            // Simple confetti using DOM elements + CSS keyframes inserted once
-            function launchConfetti(duration = 6000, particleCount = 120) {
-                // avoid launching multiple times
-                if (document.getElementById('confetti-container')) return;
-
-                const styleId = 'confetti-keyframes';
-                if (!document.getElementById(styleId)) {
-                    const style = document.createElement('style');
-                    style.id = styleId;
-                    style.innerHTML = `
-                        @keyframes confetti-fall {
-                            from { top: -12vh; opacity: 1; transform: rotate(0deg); }
-                            to { top: 100vh; opacity: 0.95; transform: rotate(600deg); }
-                        }
-                        @keyframes confetti-spin { from { transform: rotate(0deg); } to { transform: rotate(720deg); } }
-                    `;
-                    document.head.appendChild(style);
-                }
-
-                const container = document.createElement('div');
-                container.id = 'confetti-container';
-                Object.assign(container.style, {
-                    position: 'fixed',
-                    pointerEvents: 'none',
-                    left: 0,
-                    top: 0,
-                    width: '100%',
-                    height: '100vh',
-                    overflow: 'hidden',
-                    zIndex: 9998
+        
+                // add subtext below
+                const subText = document.createElement('div');
+                subText.textContent = "(Stay tuned for OAKMUN 2026)";
+                Object.assign(subText.style, {
+                    marginTop: "0.5rem",
+                    fontSize: "1rem",
+                    color: "var(--sec-accent-color)",
+                    fontStyle: "italic"
                 });
-
-                const colors = ['#FFD700', '#1e96a5', '#e76f51', '#06d6a0', '#118ab2', '#f4a261'];
-
-                for (let i = 0; i < particleCount; i++) {
-                    const particle = document.createElement('div');
-                    particle.className = 'confetti-piece';
-                    const size = Math.floor(Math.random() * 10) + 7; // 7-16px
-                    const left = Math.random() * 100; // percent
-                    const delay = Math.random() * 0.8; // seconds
-                    const durationSec = (Math.random() * 1.6) + 2.8; // 2.8 - 4.4s
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-
-                    Object.assign(particle.style, {
-                        position: 'absolute',
-                        left: left + '%',
-                        // start slightly above the viewport so items fall into view
-                        top: '-8vh',
-                        width: size + 'px',
-                        height: (size * (Math.random() * 0.6 + 0.6)) + 'px',
-                        background: color,
-                        opacity: 0.95,
-                        // start with no translate so the 'top' animation drives the fall
-                        transform: `rotate(0deg)`,
-                        willChange: 'top, transform, opacity',
-                        borderRadius: (Math.random() > 0.5 ? '2px' : '50%'),
-                        animation: `confetti-fall ${durationSec}s cubic-bezier(.2,.8,.2,1) ${delay}s forwards, confetti-spin ${durationSec}s linear ${delay}s forwards`
-                    });
-
-                    container.appendChild(particle);
-                }
-
-                document.body.appendChild(container);
-
-                // Clean up after duration + small buffer
-                setTimeout(() => {
-                    container.remove();
-                    const k = document.getElementById(styleId);
-                    if (k) k.remove();
-                }, duration + 1200);
+                timerEl.insertAdjacentElement('afterend', subText);
             }
-
-            // Trigger announcement and confetti
-            showLiveAnnouncement();
-            launchConfetti(7000, 140);
         }
     }, 1000);
     const lazyScrollingContainer = document.querySelector('.lazy-scrolling-container');
